@@ -6,7 +6,8 @@ import {
   dashCurrencyPluginFactory,
   litecoinCurrencyPluginFactory,
   feathercoinCurrencyPluginFactory,
-  zcoinCurrencyPluginFactory
+  zcoinCurrencyPluginFactory,
+  qtumCurrencyPluginFactory,
 } from 'edge-currency-bitcoin'
 import { ethereumCurrencyPluginFactory } from 'edge-currency-ethereum'
 import { coinbasePlugin, shapeshiftPlugin, coincapPlugin } from 'edge-exchange-plugins'
@@ -93,6 +94,7 @@ const pluginFactories: Array<EdgeCorePluginFactory> = [
   ethereumCurrencyPluginFactory,
   litecoinCurrencyPluginFactory,
   feathercoinCurrencyPluginFactory,
+  qtumCurrencyPluginFactory,
   zcoinCurrencyPluginFactory
 ]
 
