@@ -153,6 +153,7 @@ if (hasProperty('storeFile')) {
 
 configurations.all {
     resolutionStrategy {
+        // revert on fail
         //force 'org.webkit:android-jsc:r216113'
     }
 }
